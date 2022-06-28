@@ -1,0 +1,8 @@
+let globalvar = "This is Global Variable";
+
+function fun() {
+    let loc_variable = "This is a Local Variable";
+}
+fun();
+console.log(loc_variable);
+console.log(globalvar);
